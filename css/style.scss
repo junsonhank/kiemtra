@@ -58,61 +58,7 @@ body {
             margin-top: 15%;
         }
     }
-    
     .body-1 {
-        background-image: url(/SCSS/images/3526847_04.jpg);
-        background-size: cover;
-        height: 800px;
-        
-        h1 {
-            font-size: 50px;
-        }
-        .img {
-            float: left;
-        }
-        .text-1 {
-            margin: 8% 0% 0% 10%;
-            font-size: 24px;
-            float: left;
-            position: absolute;
-        }
-    }
-    .body-2 {
-        position: relative;
-        left: 5%;
-    }
-    .body-3 {
-        background: url('/kiemtra/images/nen23.png');
-        background-size: cover;
-        padding: 70px;
-        img {
-            margin-top: 10%;
-        }
-        h1 {
-            font-size: 50px;
-        }
-        .text-3 {
-            font-size: 24px;
-            margin-right: 10%;
-            margin-top: 10%;
-        }
-    }
-    .body-4 {
-        background: url(/kiemtra/images/nen4.png) no-repeat;
-        background-size: cover;
-        padding: 50px;
-        h1 {
-            font-size: 50px;
-        }
-        .text-4 {
-            font-size: 24px;
-            margin-top: 15%;
-        }
-        .img {
-            float: left;
-        }
-    }
-    .body-5 {
         background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         background-repeat: no-repeat;
@@ -134,39 +80,56 @@ body {
             color: red;
         }
     }
-    .body-6 {
-        background-color: #f3d1d1;
-        padding: 70px;
-        img {
-            margin: 10% 0% 10% 0%;
-            box-shadow: 10px 15px 15px #717070;
-        }
+    .bod {
+        background-image: url(/SCSS/images/3526847_04.jpg);
+        background-size: cover;
+        height: 800px;
+        
         h1 {
-            font-size: 48px;
+            font-size: 50px;
         }
-        .text-6 {
-            margin: 10% 0% 10% 5%;
-            font-size: 24px;
-            float: right;
-        }
-        .icon {
+        .img {
             float: left;
-            margin: 0% 0% 0% 5%;
+        }
+        .text-1 {
+            margin: 8% 0% 0% 10%;
+            font-size: 24px;
+            float: left;
+            position: absolute;
         }
     }
-    .body-7 {
-        background: url('/SCSS/images/nen7_12.jpg') no-repeat;
+    .body-2 {
+        background: url(/kiemtra/images/nen4.png) no-repeat;
         background-size: cover;
         padding: 50px;
-        .text-7 {
-            font-size: 24px;
-            text-align: center;
+        h1 {
+            font-size: 50px;
         }
-        .comment {
-            margin: 5% 17% 0% 17%;
+        .text-4 {
+            font-size: 24px;
+            margin-top: 15%;
+        }
+        .img {
+            float: left;
         }
     }
-    .body-8 {
+    .body-3 {
+        background: url('/kiemtra/images/nen23.png');
+        background-size: cover;
+        padding: 70px;
+        img {
+            margin-top: 10%;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        .text-3 {
+            font-size: 24px;
+            margin-right: 10%;
+            margin-top: 10%;
+        }
+    }
+    .body-4 {
         background: url(/kiemtra/images/nen4.png) no-repeat;
         background-position: center;
         background-repeat: no-repeat;
@@ -174,7 +137,7 @@ body {
         padding: 50px;
     
         
-            .title-body8{
+            .title-body4{
             p{
               font-size: calc(35px + 60px);
               
@@ -198,7 +161,7 @@ body {
           }
         
       }
-      .body-9 {
+      .body-5 {
         background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         background-repeat: no-repeat;
@@ -206,7 +169,7 @@ body {
         h1 {
             font-size: 50px;
         }
-        .text-9 {
+        .text-5 {
             font-size: 24px;
             text-align: center;
             margin-top: 3%;
@@ -222,7 +185,7 @@ body {
             color: red;
         }
     }
-    .group5 {
+    .body-6 {
         background: url(/kiemtra/images/nen1234.png) no-repeat;
         background-position: center;
         background-repeat: no-repeat;
@@ -236,13 +199,16 @@ body {
           font-family: 'Grand Hotel', cursive;
         }
       }
-    .group6 {
+    
+     
+   
+    .body-7 {
         background: url(/kiemtra/images/nen23.png) no-repeat;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         padding: 200px;
-        .title-group6{
+        .title-body7{
           p{
             font-size: calc(35px + 60px);
             
@@ -267,12 +233,12 @@ body {
               text-indent: 55px;
               width: 900px;
             }
-            .group6-btn{
+            .body7-btn{
               line-height: 20px;
               font-weight: bold;
               padding: 19px 50px;
             }
-            .group6-btn:hover {
+            .body7-btn:hover {
               color: white !important;
             }
           }
