@@ -27,15 +27,15 @@ body {
         }
     }
     .section1 {
-        background: url(/SCSS/images/background1.png) no-repeat;
+        background: url(/kiemtra/images/nen123.png) no-repeat;
         background-size: cover;
-        padding: 30px 0;
+        padding: 300px 0;
         h1 {
             font-size: 60px;
         }
         .nen {
             height: 50em;
-            background-image: url('/SCSS/images/background1.png');
+            background-image: url('/kiemtra/images/nen123.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
             img {
@@ -58,15 +58,17 @@ body {
             margin-top: 15%;
         }
     }
+    
     .body-1 {
         background-image: url(/SCSS/images/3526847_04.jpg);
         background-size: cover;
         height: 800px;
-        img {
-            max-width: 100%;
-        }
+        
         h1 {
             font-size: 50px;
+        }
+        .img {
+            float: left;
         }
         .text-1 {
             margin: 8% 0% 0% 10%;
@@ -80,7 +82,7 @@ body {
         left: 5%;
     }
     .body-3 {
-        background: url('/SCSS/images/nen-body3_08.png');
+        background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         padding: 70px;
         img {
@@ -96,7 +98,7 @@ body {
         }
     }
     .body-4 {
-        background: url(/SCSS/images/nem4_1_02.png) no-repeat;
+        background: url(/kiemtra/images/nen4.png) no-repeat;
         background-size: cover;
         padding: 50px;
         h1 {
@@ -111,17 +113,18 @@ body {
         }
     }
     .body-5 {
-        background: url('/SCSS/images/images/3526847_05.png');
+        background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 50px;
+        padding: 200px;
         h1 {
             font-size: 50px;
         }
         .text-5 {
             font-size: 24px;
             text-align: center;
-            margin-top: 2%;
+            margin-top: 3%;
+            color: red;
         }
         .card {
             margin-top: 4%;
@@ -163,15 +166,142 @@ body {
             margin: 5% 17% 0% 17%;
         }
     }
+    .body-8 {
+        background: url(/kiemtra/images/nen4.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+    
+        
+            .title-body8{
+            p{
+              font-size: calc(35px + 60px);
+              
+            }
+            h1{
+              margin: 0 250px;
+            }
+          }
+          .row {
+            padding: 50px 0;
+          
+            
+            
+            p{
+              font-size: calc(20px + 43px);
+              margin-bottom: 0;
+            }
+            span{
+              font-size: calc(15px + 23px);
+            }
+          }
+        
+      }
+      .body-9 {
+        background: url('/kiemtra/images/nen23.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px;
+        h1 {
+            font-size: 50px;
+        }
+        .text-9 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 3%;
+            color: red;
+        }
+        .card {
+            margin-top: 4%;
+            box-shadow: 10px 15px 15px #ece7e7;
+            color: red;
+        }
+        
+        .card :hover {
+            color: red;
+        }
+    }
+    .group5 {
+        background: url(/kiemtra/images/nen1234.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px;
+        span{
+          font-size: calc(15px + 23px);
+        }
+        p{
+          font-size: calc(20px + 57px);
+          font-family: 'Grand Hotel', cursive;
+        }
+      }
+    .group6 {
+        background: url(/kiemtra/images/nen23.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px;
+        .title-group6{
+          p{
+            font-size: calc(35px + 60px);
+            
+          }
+          h1{
+            width: 900px;
+            margin: 0 250px;
+          }
+        }
+        form {
+          padding: 50px 0;
+    
+          .box-shadow {
+            max-width: 1440px;
+           
+    
+            input {
+              font-size: calc(13px + 25px);
+            }
+    
+            .email {
+              text-indent: 55px;
+              width: 900px;
+            }
+            .group6-btn{
+              line-height: 20px;
+              font-weight: bold;
+              padding: 19px 50px;
+            }
+            .group6-btn:hover {
+              color: white !important;
+            }
+          }
+        }
+    }
     .footer {
         background-color: #424954;
         height: 100%;
         .text-footer {
             color: white;
         }
+        .row{
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+        }
+        .border-icon {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+          }
         i {
             color: black;
         }
+        
     }
     #dialog {
         background: url(/SCSS/images/yoga.jpg) no-repeat;
@@ -198,4 +328,6 @@ body {
             background-size: 100% 50%;
         }
     }
+    
+      
 }
