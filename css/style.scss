@@ -278,33 +278,39 @@ body {
           }
         }
     }
-    .footer {
-        background-color: #424954;
+.footer {
+        background-color: black;
         height: 100%;
-        .text-footer {
-            color: white;
-        }
-        .row{
-            height: 20px;
-            width: 20px;
-            border-radius: 50%;
-            -moz-border-radius: 50%;
-            -webkit-border-radius: 50%;
-        }
-        .border-icon {
-            height: 20px;
-            width: 20px;
-            border-radius: 50%;
-            -moz-border-radius: 50%;
-            -webkit-border-radius: 50%;
-          }
-        i {
-            color: black;
+        color: white;
+        
+    .span{
+        margin-right: 100px;
         }
         
+        
+    .border-icon {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+        }
+          
+    .i {
+    color: black;
     }
+    .a{
+        text-decoration: 10px;
+        color: white;
+        font-weight: normal !important;
+    }
+    .ul{
+        color: white;
+    }
+        
+}
     #dialog {
-        background: url(/SCSS/images/yoga.jpg) no-repeat;
+        background: url(/kiemtra/images/nen123.png) no-repeat;
         background-size: cover;
     }
     //mobile:width<740px; man hinh dt 

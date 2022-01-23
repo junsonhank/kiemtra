@@ -199,26 +199,27 @@ body {
         body .group6 form .box-shadow .group6-btn:hover {
           color: white !important; }
   body .footer {
-    background-color: #424954;
-    height: 100%; }
-    body .footer .text-footer {
-      color: white; }
-    body .footer .row {
-      height: 20px;
-      width: 20px;
-      border-radius: 50%;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%; }
+    background-color: black;
+    height: 100%;
+    color: white; }
+    body .footer .span {
+      margin-right: 100px; }
     body .footer .border-icon {
-      height: 20px;
-      width: 20px;
+      height: 40px;
+      width: 40px;
       border-radius: 50%;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%; }
-    body .footer i {
+    body .footer .i {
       color: black; }
+    body .footer .a {
+      text-decoration: 10px;
+      color: white;
+      font-weight: normal !important; }
+    body .footer .ul {
+      color: white; }
   body #dialog {
-    background: url(/SCSS/images/yoga.jpg) no-repeat;
+    background: url(/kiemtra/images/nen123.png) no-repeat;
     background-size: cover; }
   @media (max-width: 767px) {
     body p {
