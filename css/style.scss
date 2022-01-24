@@ -5,6 +5,7 @@ body {
     .header {
         position: relative;
         padding: 10px;
+        background-color: gray;
         .open {
             position: absolute;
             top: 15px;
@@ -27,35 +28,30 @@ body {
         }
     }
     .section1 {
+        
         background: url(/kiemtra/images/nen123.png) no-repeat;
         background-size: cover;
         padding: 300px 0;
         h1 {
-            font-size: 60px;
+            font-size: 70px;
         }
         .nen {
             height: 50em;
             background-image: url('/kiemtra/images/nen123.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            img {
-                margin-top: 7%;
-                position: relative;
-                left: 7%;
-                bottom: 4%;
-            }
+            
             h1 {
-                font-size: 64px;
+                font-size: 100px;
             }
-            img {
-                max-width: 100%;
-            }
+           
         }
         .text-nen {
             font-size: 24px;
             float: left;
             margin-left: 10%;
             margin-top: 15%;
+            color: white;
         }
     }
     .body-1 {
@@ -80,24 +76,8 @@ body {
             color: red;
         }
     }
-    .bod {
-        background-image: url(/SCSS/images/3526847_04.jpg);
-        background-size: cover;
-        height: 800px;
-        
-        h1 {
-            font-size: 50px;
-        }
-        .img {
-            float: left;
-        }
-        .text-1 {
-            margin: 8% 0% 0% 10%;
-            font-size: 24px;
-            float: left;
-            position: absolute;
-        }
-    }
+   
+    
     .body-2 {
         background: url(/kiemtra/images/nen4.png) no-repeat;
         background-size: cover;
