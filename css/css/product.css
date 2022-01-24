@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #555555;
+  background: url("/kiemtra/images/nen23.png");
+  background-size: cover; }
+  body .header {
+    position: relative;
+    padding: 10px; }
+    body .header .open {
+      position: absolute;
+      top: 15px;
+      right: 15px; }
+    body .header .text-menu {
+      float: right; }
+      body .header .text-menu ul li {
+        list-style: none;
+        float: left;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 24px; }
+        body .header .text-menu ul li a {
+          color: black;
+          display: inline-block;
+          padding: 20px 30px; }
+  body .menu .heading span {
+    font-size: 80px; }
+  body .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+    gap: 24px; }
+  body .menu .box-container .box {
+    border-radius: 8px;
+    background: #f7f7f7;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 24px; }
+  body .menu .box-container .box:hover {
+    background: black; }
+  body .menu .box-container .box:hover .content h3 {
+    color: #fff; }
+  body .menu .box-container .box img {
+    height: 160px; }
+  body .menu .box-container .box .content h3 {
+    font-size: 32px;
+    color: #130f40;
+    padding-bottom: 8px; }
+  body .menu .box-container .box .content .price {
+    font-size: 28.8px;
+    color: #471fd8; }
+  body .footer {
+    background-color: black;
+    height: 100%;
+    color: white; }
+    body .footer .span {
+      margin-right: 100px; }
+    body .footer .border-icon {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+    body .footer .i {
+      color: black; }
+    body .footer .a {
+      text-decoration: 10px;
+      color: white;
+      font-weight: normal !important; }
+    body .footer .ul {
+      color: white; }
+  body #dialog {
+    background: url(/kiemtra/images/nen123.png) no-repeat;
+    background-size: cover; }
+  @media (max-width: 767px) {
+    body p {
+      display: none; }
+    body .text-foodter {
+      color: #FFFFFF; }
+    body img {
+      max-width: 100%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1025px) {
+    body img {
+      max-width: 100%; }
+    body .nen {
+      background-size: 100% 50%; } }
+
+/*# sourceMappingURL=product.css.map */

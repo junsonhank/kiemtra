@@ -5,6 +5,7 @@ body {
     .header {
         position: relative;
         padding: 10px;
+        background-color: gray;
         .open {
             position: absolute;
             top: 15px;
@@ -27,60 +28,73 @@ body {
         }
     }
     .section1 {
-        background: url(/SCSS/images/background1.png) no-repeat;
+        
+        background: url(/kiemtra/images/nen123.png) no-repeat;
         background-size: cover;
-        padding: 30px 0;
+        padding: 300px 0;
         h1 {
-            font-size: 60px;
+            font-size: 70px;
         }
         .nen {
             height: 50em;
-            background-image: url('/SCSS/images/background1.png');
+            background-image: url('/kiemtra/images/nen123.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            img {
-                margin-top: 7%;
-                position: relative;
-                left: 7%;
-                bottom: 4%;
-            }
+            
             h1 {
-                font-size: 64px;
+                font-size: 100px;
             }
-            img {
-                max-width: 100%;
-            }
+           
         }
         .text-nen {
             font-size: 24px;
             float: left;
             margin-left: 10%;
             margin-top: 15%;
+            color: white;
         }
     }
     .body-1 {
-        background-image: url(/SCSS/images/3526847_04.jpg);
+        background: url('/kiemtra/images/nen23.png');
         background-size: cover;
-        height: 800px;
-        img {
-            max-width: 100%;
-        }
+        background-repeat: no-repeat;
+        padding: 200px;
         h1 {
             font-size: 50px;
         }
-        .text-1 {
-            margin: 8% 0% 0% 10%;
+        .text-5 {
             font-size: 24px;
-            float: left;
-            position: absolute;
+            text-align: center;
+            margin-top: 3%;
+            color: red;
+        }
+        .card {
+            margin-top: 4%;
+            box-shadow: 10px 15px 15px #ece7e7;
+        }
+        .card :hover {
+            color: red;
         }
     }
+   
+    
     .body-2 {
-        position: relative;
-        left: 5%;
+        background: url(/kiemtra/images/nen4.png) no-repeat;
+        background-size: cover;
+        padding: 50px;
+        h1 {
+            font-size: 50px;
+        }
+        .text-4 {
+            font-size: 24px;
+            margin-top: 15%;
+        }
+        .img {
+            float: left;
+        }
     }
     .body-3 {
-        background: url('/SCSS/images/nen-body3_08.png');
+        background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         padding: 70px;
         img {
@@ -96,85 +110,153 @@ body {
         }
     }
     .body-4 {
-        background: url(/SCSS/images/nem4_1_02.png) no-repeat;
+        background: url(/kiemtra/images/nen4.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
         padding: 50px;
-        h1 {
-            font-size: 50px;
-        }
-        .text-4 {
-            font-size: 24px;
-            margin-top: 15%;
-        }
-        .img {
-            float: left;
-        }
-    }
-    .body-5 {
-        background: url('/SCSS/images/images/3526847_05.png');
+    
+        
+            .title-body4{
+            p{
+              font-size: calc(35px + 60px);
+              
+            }
+            h1{
+              margin: 0 250px;
+            }
+          }
+          .row {
+            padding: 50px 0;
+          
+            
+            
+            p{
+              font-size: calc(20px + 43px);
+              margin-bottom: 0;
+            }
+            span{
+              font-size: calc(15px + 23px);
+            }
+          }
+        
+      }
+      .body-5 {
+        background: url('/kiemtra/images/nen23.png');
         background-size: cover;
         background-repeat: no-repeat;
-        padding: 50px;
+        padding: 100px;
         h1 {
             font-size: 50px;
         }
         .text-5 {
             font-size: 24px;
             text-align: center;
-            margin-top: 2%;
+            margin-top: 3%;
+            color: red;
         }
         .card {
             margin-top: 4%;
             box-shadow: 10px 15px 15px #ece7e7;
+            color: red;
         }
+        
         .card :hover {
             color: red;
         }
     }
     .body-6 {
-        background-color: #f3d1d1;
-        padding: 70px;
-        img {
-            margin: 10% 0% 10% 0%;
-            box-shadow: 10px 15px 15px #717070;
-        }
-        h1 {
-            font-size: 48px;
-        }
-        .text-6 {
-            margin: 10% 0% 10% 5%;
-            font-size: 24px;
-            float: right;
-        }
-        .icon {
-            float: left;
-            margin: 0% 0% 0% 5%;
-        }
-    }
-    .body-7 {
-        background: url('/SCSS/images/nen7_12.jpg') no-repeat;
+        background: url(/kiemtra/images/nen1234.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
         background-size: cover;
-        padding: 50px;
-        .text-7 {
-            font-size: 24px;
-            text-align: center;
+        padding: 200px;
+        span{
+          font-size: calc(15px + 23px);
         }
-        .comment {
-            margin: 5% 17% 0% 17%;
+        p{
+          font-size: calc(20px + 57px);
+          font-family: 'Grand Hotel', cursive;
+        }
+      }
+    
+     
+   
+    .body-7 {
+        background: url(/kiemtra/images/nen23.png) no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px;
+        .title-body7{
+          p{
+            font-size: calc(35px + 60px);
+            
+          }
+          h1{
+            width: 900px;
+            margin: 0 250px;
+          }
+        }
+        form {
+          padding: 50px 0;
+    
+          .box-shadow {
+            max-width: 1440px;
+           
+    
+            input {
+              font-size: calc(13px + 25px);
+            }
+    
+            .email {
+              text-indent: 55px;
+              width: 900px;
+            }
+            .body7-btn{
+              line-height: 20px;
+              font-weight: bold;
+              padding: 19px 50px;
+            }
+            .body7-btn:hover {
+              color: white !important;
+            }
+          }
         }
     }
-    .footer {
-        background-color: #424954;
+.footer {
+        background-color: black;
         height: 100%;
-        .text-footer {
-            color: white;
+        color: white;
+        
+    .span{
+        margin-right: 100px;
         }
-        i {
-            color: black;
+        
+        
+    .border-icon {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
         }
+          
+    .i {
+    color: black;
     }
+    .a{
+        text-decoration: 10px;
+        color: white;
+        font-weight: normal !important;
+    }
+    .ul{
+        color: white;
+    }
+        
+}
     #dialog {
-        background: url(/SCSS/images/yoga.jpg) no-repeat;
+        background: url(/kiemtra/images/nen123.png) no-repeat;
         background-size: cover;
     }
     //mobile:width<740px; man hinh dt 
@@ -198,4 +280,6 @@ body {
             background-size: 100% 50%;
         }
     }
+    
+      
 }

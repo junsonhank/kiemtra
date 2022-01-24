@@ -1,201 +1,192 @@
 body {
   margin: 0px;
   padding: 0px;
-  color: #555555;
-}
-body .header {
-  position: relative;
-  padding: 10px;
-}
-body .header .open {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-body .header .text-menu {
-  float: right;
-}
-body .header .text-menu ul li {
-  list-style: none;
-  float: left;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 24px;
-}
-body .header .text-menu ul li a {
-  color: black;
-  display: inline-block;
-  padding: 20px 30px;
-}
-body .section1 {
-  background: url(/SCSS/images/background1.png) no-repeat;
-  background-size: cover;
-  padding: 30px 0;
-}
-body .section1 h1 {
-  font-size: 60px;
-}
-body .section1 .nen {
-  height: 50em;
-  background-image: url("/SCSS/images/background1.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-body .section1 .nen img {
-  margin-top: 7%;
-  position: relative;
-  left: 7%;
-  bottom: 4%;
-}
-body .section1 .nen h1 {
-  font-size: 64px;
-}
-body .section1 .nen img {
-  max-width: 100%;
-}
-body .section1 .text-nen {
-  font-size: 24px;
-  float: left;
-  margin-left: 10%;
-  margin-top: 15%;
-}
-body .body-1 {
-  background-image: url(/SCSS/images/3526847_04.jpg);
-  background-size: cover;
-  height: 800px;
-}
-body .body-1 img {
-  max-width: 100%;
-}
-body .body-1 h1 {
-  font-size: 50px;
-}
-body .body-1 .text-1 {
-  margin: 8% 0% 0% 10%;
-  font-size: 24px;
-  float: left;
-  position: absolute;
-}
-body .body-2 {
-  position: relative;
-  left: 5%;
-}
-body .body-3 {
-  background: url("/SCSS/images/nen-body3_08.png");
-  background-size: cover;
-  padding: 70px;
-}
-body .body-3 img {
-  margin-top: 10%;
-}
-body .body-3 h1 {
-  font-size: 50px;
-}
-body .body-3 .text-3 {
-  font-size: 24px;
-  margin-right: 10%;
-  margin-top: 10%;
-}
-body .body-4 {
-  background: url(/SCSS/images/nem4_1_02.png) no-repeat;
-  background-size: cover;
-  padding: 50px;
-}
-body .body-4 h1 {
-  font-size: 50px;
-}
-body .body-4 .text-4 {
-  font-size: 24px;
-  margin-top: 15%;
-}
-body .body-4 .img {
-  float: left;
-}
-body .body-5 {
-  background: url("/SCSS/images/images/3526847_05.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px;
-}
-body .body-5 h1 {
-  font-size: 50px;
-}
-body .body-5 .text-5 {
-  font-size: 24px;
-  text-align: center;
-  margin-top: 2%;
-}
-body .body-5 .card {
-  margin-top: 4%;
-  box-shadow: 10px 15px 15px #ece7e7;
-}
-body .body-5 .card :hover {
-  color: red;
-}
-body .body-6 {
-  background-color: #f3d1d1;
-  padding: 70px;
-}
-body .body-6 img {
-  margin: 10% 0% 10% 0%;
-  box-shadow: 10px 15px 15px #717070;
-}
-body .body-6 h1 {
-  font-size: 48px;
-}
-body .body-6 .text-6 {
-  margin: 10% 0% 10% 5%;
-  font-size: 24px;
-  float: right;
-}
-body .body-6 .icon {
-  float: left;
-  margin: 0% 0% 0% 5%;
-}
-body .body-7 {
-  background: url("/SCSS/images/nen7_12.jpg") no-repeat;
-  background-size: cover;
-  padding: 50px;
-}
-body .body-7 .text-7 {
-  font-size: 24px;
-  text-align: center;
-}
-body .body-7 .comment {
-  margin: 5% 17% 0% 17%;
-}
-body .footer {
-  background-color: #424954;
-  height: 100%;
-}
-body .footer .text-footer {
-  color: white;
-}
-body .footer i {
-  color: black;
-}
-body #dialog {
-  background: url(/SCSS/images/yoga.jpg) no-repeat;
-  background-size: cover;
-}
-@media (max-width: 767px) {
-  body p {
-    display: none;
-  }
-  body .text-foodter {
-    color: #FFFFFF;
-  }
-  body img {
-    max-width: 100%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 1025px) {
-  body img {
-    max-width: 100%;
-  }
-  body .nen {
-    background-size: 100% 50%;
-  }
-}
+  color: #555555; }
+  body .header {
+    position: relative;
+    padding: 10px;
+    background-color: gray; }
+    body .header .open {
+      position: absolute;
+      top: 15px;
+      right: 15px; }
+    body .header .text-menu {
+      float: right; }
+      body .header .text-menu ul li {
+        list-style: none;
+        float: left;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 24px; }
+        body .header .text-menu ul li a {
+          color: black;
+          display: inline-block;
+          padding: 20px 30px; }
+  body .section1 {
+    background: url(/kiemtra/images/nen123.png) no-repeat;
+    background-size: cover;
+    padding: 300px 0; }
+    body .section1 h1 {
+      font-size: 70px; }
+    body .section1 .nen {
+      height: 50em;
+      background-image: url("/kiemtra/images/nen123.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+      body .section1 .nen h1 {
+        font-size: 100px; }
+    body .section1 .text-nen {
+      font-size: 24px;
+      float: left;
+      margin-left: 10%;
+      margin-top: 15%;
+      color: white; }
+  body .body-1 {
+    background: url("/kiemtra/images/nen23.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px; }
+    body .body-1 h1 {
+      font-size: 50px; }
+    body .body-1 .text-5 {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 3%;
+      color: red; }
+    body .body-1 .card {
+      margin-top: 4%;
+      box-shadow: 10px 15px 15px #ece7e7; }
+    body .body-1 .card :hover {
+      color: red; }
+  body .body-2 {
+    background: url(/kiemtra/images/nen4.png) no-repeat;
+    background-size: cover;
+    padding: 50px; }
+    body .body-2 h1 {
+      font-size: 50px; }
+    body .body-2 .text-4 {
+      font-size: 24px;
+      margin-top: 15%; }
+    body .body-2 .img {
+      float: left; }
+  body .body-3 {
+    background: url("/kiemtra/images/nen23.png");
+    background-size: cover;
+    padding: 70px; }
+    body .body-3 img {
+      margin-top: 10%; }
+    body .body-3 h1 {
+      font-size: 50px; }
+    body .body-3 .text-3 {
+      font-size: 24px;
+      margin-right: 10%;
+      margin-top: 10%; }
+  body .body-4 {
+    background: url(/kiemtra/images/nen4.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px; }
+    body .body-4 .title-body4 p {
+      font-size: calc(35px + 60px); }
+    body .body-4 .title-body4 h1 {
+      margin: 0 250px; }
+    body .body-4 .row {
+      padding: 50px 0; }
+      body .body-4 .row p {
+        font-size: calc(20px + 43px);
+        margin-bottom: 0; }
+      body .body-4 .row span {
+        font-size: calc(15px + 23px); }
+  body .body-5 {
+    background: url("/kiemtra/images/nen23.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px; }
+    body .body-5 h1 {
+      font-size: 50px; }
+    body .body-5 .text-5 {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 3%;
+      color: red; }
+    body .body-5 .card {
+      margin-top: 4%;
+      box-shadow: 10px 15px 15px #ece7e7;
+      color: red; }
+    body .body-5 .card :hover {
+      color: red; }
+  body .body-6 {
+    background: url(/kiemtra/images/nen1234.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px; }
+    body .body-6 span {
+      font-size: calc(15px + 23px); }
+    body .body-6 p {
+      font-size: calc(20px + 57px);
+      font-family: 'Grand Hotel', cursive; }
+  body .body-7 {
+    background: url(/kiemtra/images/nen23.png) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px; }
+    body .body-7 .title-body7 p {
+      font-size: calc(35px + 60px); }
+    body .body-7 .title-body7 h1 {
+      width: 900px;
+      margin: 0 250px; }
+    body .body-7 form {
+      padding: 50px 0; }
+      body .body-7 form .box-shadow {
+        max-width: 1440px; }
+        body .body-7 form .box-shadow input {
+          font-size: calc(13px + 25px); }
+        body .body-7 form .box-shadow .email {
+          text-indent: 55px;
+          width: 900px; }
+        body .body-7 form .box-shadow .body7-btn {
+          line-height: 20px;
+          font-weight: bold;
+          padding: 19px 50px; }
+        body .body-7 form .box-shadow .body7-btn:hover {
+          color: white !important; }
+  body .footer {
+    background-color: black;
+    height: 100%;
+    color: white; }
+    body .footer .span {
+      margin-right: 100px; }
+    body .footer .border-icon {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+    body .footer .i {
+      color: black; }
+    body .footer .a {
+      text-decoration: 10px;
+      color: white;
+      font-weight: normal !important; }
+    body .footer .ul {
+      color: white; }
+  body #dialog {
+    background: url(/kiemtra/images/nen123.png) no-repeat;
+    background-size: cover; }
+  @media (max-width: 767px) {
+    body p {
+      display: none; }
+    body .text-foodter {
+      color: #FFFFFF; }
+    body img {
+      max-width: 100%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1025px) {
+    body img {
+      max-width: 100%; }
+    body .nen {
+      background-size: 100% 50%; } }
 
 /*# sourceMappingURL=style.css.map */
