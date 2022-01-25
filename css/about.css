@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #555555; }
+  body .header {
+    position: relative;
+    padding: 10px; }
+    body .header .open {
+      position: absolute;
+      top: 15px;
+      right: 15px; }
+    body .header .text-menu {
+      float: right; }
+      body .header .text-menu ul li {
+        list-style: none;
+        float: left;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 24px; }
+        body .header .text-menu ul li a {
+          color: black;
+          display: inline-block;
+          padding: 20px 30px; }
+  body .section1 {
+    background: url(/kiemtra/images/nen123.png) no-repeat;
+    background-size: cover;
+    padding: 300px 0; }
+    body .section1 h1 {
+      font-size: 60px; }
+    body .section1 .nen {
+      height: 50em;
+      background-image: url("/kiemtra/images/nen123.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%; }
+      body .section1 .nen h1 {
+        font-size: 64px; }
+      body .section1 .nen img {
+        max-width: 100%; }
+    body .section1 .text-nen {
+      font-size: 24px;
+      float: left;
+      margin-left: 10%;
+      margin-top: 15%;
+      color: white; }
+  body .footer {
+    background-color: black;
+    height: 100%;
+    color: white; }
+    body .footer .span {
+      margin-right: 100px; }
+    body .footer .border-icon {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+    body .footer .i {
+      color: black; }
+    body .footer .a {
+      text-decoration: 10px;
+      color: white;
+      font-weight: normal !important; }
+    body .footer .ul {
+      color: white; }
+  body #dialog {
+    background: url(/kiemtra/images/nen123.png) no-repeat;
+    background-size: cover; }
+  @media (max-width: 767px) {
+    body p {
+      display: none; }
+    body .text-foodter {
+      color: #FFFFFF; }
+    body img {
+      max-width: 100%; } }
+  @media only screen and (min-width: 768px) and (max-width: 1025px) {
+    body img {
+      max-width: 100%; }
+    body .nen {
+      background-size: 100% 50%; } }
+
+/*# sourceMappingURL=about.css.map */
