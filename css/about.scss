@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #555555;
+    .header {
+        position: relative;
+        padding: 10px;
+        .open {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+        .text-menu {
+            float: right;
+            ul li {
+                list-style: none;
+                float: left;
+                text-decoration: none;
+                cursor: pointer;
+                font-size: 24px;
+                a {
+                    color: black;
+                    display: inline-block;
+                    padding: 20px 30px;
+                }
+            }
+        }
+    }
+    .section1 {
+        
+        background: url(/kiemtra/images/nen123.png) no-repeat;
+        background-size: cover;
+        padding: 300px 0;
+        h1 {
+            font-size: 60px;
+        }
+        .nen {
+            height: 50em;
+            background-image: url('/kiemtra/images/nen123.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+            h1 {
+                font-size: 64px;
+            }
+            img {
+                max-width: 100%;
+            }
+        }
+        .text-nen {
+            font-size: 24px;
+            float: left;
+            margin-left: 10%;
+            margin-top: 15%;
+            color: white;
+        }
+    }
+    
+.footer {
+        background-color: black;
+        height: 100%;
+        color: white;
+        
+    .span{
+        margin-right: 100px;
+        }
+        
+        
+    .border-icon {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+        }
+          
+    .i {
+    color: black;
+    }
+    .a{
+        text-decoration: 10px;
+        color: white;
+        font-weight: normal !important;
+    }
+    .ul{
+        color: white;
+    }
+        
+}
+    #dialog {
+        background: url(/kiemtra/images/nen123.png) no-repeat;
+        background-size: cover;
+    }
+    //mobile:width<740px; man hinh dt 
+    @media (max-width: 767px) {
+        p {
+            display: none;
+        }
+        .text-foodter {
+            color: #FFFFFF;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    // // man hinh ipad
+    @media only screen and(min-width:768px) and (max-width:1025px) {
+        img {
+            max-width: 100%;
+        }
+        .nen {
+            background-size: 100% 50%;
+        }
+    }
+    
+      
+}
